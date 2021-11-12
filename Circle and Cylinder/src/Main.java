@@ -1,16 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        Employee emp = new Employee();
-        Person p = new Employee();
+    Circle cr = new Circle(3.0, "red");
+    Cylinder cr2 = new Cylinder(3.0,"red", 5.0 )
 
-        Person pp = new Person();
 
-        emp.setLuong(4.5);
-        emp.setTen("Nam");
-
-        p.setTen("Khoa");
-//        p.setLuong(3.5);
-        emp.thongTin();
-        p.thongTin();
     }
 }
