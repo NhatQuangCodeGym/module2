@@ -89,8 +89,8 @@ public class MyList<T> {
     }
 
     public boolean contains(T e) {
-        for (T x : data) {
-            if (e.equals(x)) {
+        for (int i = 0; i < size;i++) {
+            if (data[i].equals(e)) {
                 return true;
             }
         }
